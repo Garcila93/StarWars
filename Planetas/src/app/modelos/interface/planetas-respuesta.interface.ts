@@ -1,6 +1,6 @@
 import { Planeta } from './planetas.interface';
 
-export interface PlanetResponse {
+export interface PlanetaRespuesta {
     count: number;
     next: string;
     previous?: any;

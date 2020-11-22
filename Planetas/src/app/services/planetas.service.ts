@@ -6,7 +6,7 @@ import { Planeta } from '../modelos/interface/planetas.interface';
 import { PlanetaRespuesta } from '../modelos/interface/planetas-respuesta.interface';
 
 
-const authURL = 'https://swapi.co/api/planets/';
+const authURL = 'https://swapi.dev/api/planets/';
 const requestOptions = {
   headers: new HttpHeaders({
     'Content-Type': 'application/json'

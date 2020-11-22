@@ -3,9 +3,9 @@ import { Planeta } from '../modelos/interface/planetas.interface';
 import { PlanetasService } from '../services/planetas.service';
 
 @Component({
-  selector: 'app-planets-listado',
-  templateUrl: './planets-listado.component.html',
-  styleUrls: ['./planets-listado.component.css']
+  selector: 'app-planetas-listado',
+  templateUrl: './planetas-listado.component.html',
+  styleUrls: ['./planetas-listado.component.scss']
 })
 export class PlanetasListadoComponent implements OnInit {
   listadoPlanetas: Planeta[];
